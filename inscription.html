@@ -31,6 +31,43 @@
       </nav>
     </header>
     <section>
+      <h1 class="h1inscription">Inscription</h1>
+      <fieldset>
+        <form action="traitement.php" method="post">
+          <label for="Nom">Nom</label>                    <!-- Nom -->
+          <input type="text" id for="Nom" name="Nom">
+          <label for="Prénom">Prénom</label>             <!-- Prénom -->
+          <input type="text" id for="Prénom" name="Prénom">
+          <label for="Sexe">Sexe</label>                <!-- Sexe -->
+          <select id="Sexe">
+            <option value="Vous êtes :">Vous êtes :</option>     <!-- Genre -->
+            <option value="Un homme">Un homme</option>
+            <option value="Une femme">Une femme</option>
+          </select>
+          <label for="Date de naissance :">Date de naissance :</label>     <!-- Date de naissance -->
+          <input type="text" id for="Date de naissance" name="Date de naissance">
+          <label for="Ville">Ville</label>                               <!-- Ville -->
+          <input type="text" id for="Ville" name="Ville">
+          <label for="Adresse">Adresse</label>                             <!-- Adresse -->
+          <input type="text" id for="Adresse" name="Adresse">
+          <label for="Code postal">Code postal</label>                  <!-- Code postal -->
+          <input type="text" id for="Code postal" name="Code postal">
+          <label for="Adresse mail">Adresse mail</label>             <!-- Adresse mail -->
+          <input type="text" id for="Adresse mail" name="Adresse mail">
+          <label for="Mot de passe">Mot de passe</label>               <!-- Mot de passe -->
+          <input type="password" id for="Mot de passe" name="Mot de passe">
+          <label for="Répéter le mot de passe">Répéter le mot de passe</label>        <!-- Repeat password -->
+          <input type="password" id for="Répéter le mot de passe" name="Répéter le mot de passe">
+          <label for="Pays">Pays</label>                                  <!-- Pays -->
+          <select id="Pays" name="Pays">
+            <option value="-">-</option>                 <!-- Choix du pays -->
+            <option value="France">France</option>
+          </select>
+          <label for="Votre numéro de téléphone">Votre numéro de téléphone</label>   <!-- Numéro de téléphone -->
+          <input type="text" id for="Votre numéro de téléphone" name="Numéro de téléphone">
+          <input type="submit" value="S'inscrire">
+      </fieldset>
+        </form>
     </section>
     <footer>
       <section class="socialnetwork">
