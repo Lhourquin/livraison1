@@ -1,0 +1,70 @@
+* { /*Root*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none; 
+}
+
+@media (min-width: 780px) { /* Desktop */
+
+body{
+    background-color:black;
+    color:white;
+}
+
+.burger{ /* menu hambergur icon nav bar */
+ display:none;
+}
+
+.logo{ /* logo top of page Marc Seid */
+ text-align:center;
+ width:100vw;
+}
+
+.navheader{ /* nav Desktop */
+text-align:center;
+}
+
+.navheader>a:hover{ /* annimation quand on survole la nav bar */
+    color:grey;
+    transition-duration:0.5s;
+}
+
+.active{ /* annimation sur la nav bar pour la page active */
+    border-bottom:0.4vw solid red;
+  }
+
+.navheader>a{ /* lien de la navbar */
+ color:white;
+ font-size:2.6vw;
+ text-align:center;
+ padding-left:4vw;
+ padding-right:4vw;
+}
+
+footer{ /* footer desktop */
+  margin-top:3vw;
+  border-top:1vw solid white;
+ text-align:center;
+}
+
+.fab{ /* icon social network */
+    font-size:2.9vw;
+    color:white;
+    padding:2.5vw;
+  }
+
+.fab:hover{ /* annimation quand on survole les icon social network */
+  color:grey;
+  transition-duration:0.4s;
+}
+
+.socialnetwork{ /* div qui regroupe les icons social network */
+  padding:1vw;
+}
+
+}
