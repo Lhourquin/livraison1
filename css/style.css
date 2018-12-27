@@ -9,13 +9,16 @@
   text-decoration: none; 
 }
 
-@media (min-width: 780px) { /* Desktop */
+@media (min-width: 780px) { 
+  
+  /* header and footer Desktop */
 
-body{
+body{ /*body version desktop*/
     color:white;
 }
 
-header{
+
+header{ /*header version desktop */
  background-color:black;
 }
 
