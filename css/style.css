@@ -12,8 +12,11 @@
 @media (min-width: 780px) { /* Desktop */
 
 body{
-    background-color:black;
     color:white;
+}
+
+header{
+ background-color:black;
 }
 
 .burger{ /* menu hambergur icon nav bar */
@@ -47,9 +50,20 @@ text-align:center;
 }
 
 footer{ /* footer desktop */
+  background-color:black;
   margin-top:3vw;
-  border-top:1vw solid white;
+  border-top:0.4vw solid red;
  text-align:center;
+}
+
+footer>a{
+    color:white;
+    font-size:1vw;
+}
+
+footer>a:hover{
+    color:grey;
+    transition-duration:0.4s;
 }
 
 .fab{ /* icon social network */
