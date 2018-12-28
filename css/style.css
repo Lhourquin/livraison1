@@ -52,7 +52,6 @@ text-align:center;
 
 footer{ /* footer desktop */
   background-color:black;
-  margin-top:3vw;
   border-top:0.4vw solid red;
  text-align:center;
 }
@@ -83,16 +82,21 @@ footer>a:hover{
 }
 
 /* Formulaire de contact */
+.sectioncontact{
+  background-color:grey;
+  margin-top:0;
+}
 
 .h1contact{
  font-size:3vw;
  text-align:center;
- margin-top:2vw;
+ padding-top:2vw;
  margin-bottom:2vw;
 }
 
 .containercontact { /*nom et prÃ©nom */
  box-sizing:border-box; 
+ width:100%;
  text-align:center;
  border:solid 1px black;
 }
@@ -102,14 +106,15 @@ form{
 }
 
 
-label,input,textarea {
+label,input,textarea,select,option {
     font-size:1.5vw;
     padding: 1vw;
     margin:1vw;
   }
 
-input,textarea{
+input,textarea,select,option{
   border:1px solid black;
+  border-radius:2vw;
 
 }
 
@@ -129,16 +134,5 @@ input,textarea{
   display:inline-block;
 }
 
-.labelnom { /* label nom */
-}
-
-.inputnom {  /* input nom */
-}
-
-.labelprenom { /* label prÃ©nom */
-}
-
-.inputprenom {   /* input prÃ©nom */
-}
 
 }
