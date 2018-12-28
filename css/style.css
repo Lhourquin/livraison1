@@ -107,7 +107,7 @@ form{
 
 
 label,input,textarea,select,option {
-    font-size:1.5vw;
+    font-size:1vw;
     padding: 1vw;
     margin:1vw;
   }
@@ -132,6 +132,36 @@ input,textarea,select,option{
 
 .row4 {      /* numÃ©ro */
   display:inline-block;
+}
+
+
+/* Inscription desktop */
+
+.h1inscription{
+    font-size:2vw;
+    padding-top:2vw;
+    padding-bottom:2vw;
+    text-align:center;
+}
+
+.containerinscription{
+ text-align:center;
+}
+
+.containerform1{
+ display: flex;
+}
+
+.containerform3{
+ display:flex;
+}
+
+.containerform4{
+ display:flex;
+}
+
+.containerform6{
+ display:flex;
 }
 
 

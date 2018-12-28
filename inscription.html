@@ -32,43 +32,122 @@
     </header>
     <section>
       <h1 class="h1inscription">Inscription</h1>
+      <div class="containerinscription">
         <form action="traitement.php" method="post">
-      <fieldset>
-        <legend>Imformation perssonnel</legend>
-          <label for="Nom">Nom</label>                    <!-- Nom -->
-          <input type="text" id for="Nom" name="Nom">
-          <label for="Prénom">Prénom</label>             <!-- Prénom -->
-          <input type="text" id for="Prénom" name="Prénom">
-          <label for="Sexe">Sexe</label>                <!-- Sexe -->
-          <select id="Sexe">
-            <option value="Vous êtes :">Vous êtes :</option>     <!-- Genre -->
-            <option value="Un homme">Un homme</option>
-            <option value="Une femme">Une femme</option>
-          </select>
-          <label for="Date de naissance :">Date de naissance :</label>     <!-- Date de naissance -->
-          <input type="text" id for="Date de naissance" name="Date de naissance">
-          <label for="Ville">Ville</label>                               <!-- Ville -->
-          <input type="text" id for="Ville" name="Ville">
-          <label for="Adresse">Adresse</label>                             <!-- Adresse -->
-          <input type="text" id for="Adresse" name="Adresse">
-          <label for="Code postal">Code postal</label>                  <!-- Code postal -->
-          <input type="text" id for="Code postal" name="Code postal">
-          <label for="Adresse mail">Adresse mail</label>             <!-- Adresse mail -->
-          <input type="text" id for="Adresse mail" name="Adresse mail">
-          <label for="Mot de passe">Mot de passe</label>               <!-- Mot de passe -->
-          <input type="password" id for="Mot de passe" name="Mot de passe">
-          <label for="Répéter le mot de passe">Répéter le mot de passe</label>        <!-- Repeat password -->
-          <input type="password" id for="Répéter le mot de passe" name="Répéter le mot de passe">
-          <label for="Pays">Pays</label>                                  <!-- Pays -->
-          <select id="Pays" name="Pays">
-            <option value="-">-</option>                 <!-- Choix du pays -->
-            <option value="France">France</option>
-          </select>
-          <label for="Votre numéro de téléphone">Votre numéro de téléphone</label>   <!-- Numéro de téléphone -->
-          <input type="text" id for="Votre numéro de téléphone" name="Numéro de téléphone">
-          <input type="submit" value="S'inscrire">
-      </fieldset>
+          <fieldset>
+            <div class="containerform1">
+              <div class="row1inscrption">
+                <div class="labelnominscritption">
+                  <label for="Nom">Nom</label>                    <!-- Nom -->
+                </div>
+                <div class="inputnominscription">
+                  <input type="text" id for="Nom" name="Nom">
+                </div>
+              </div>
+              <div class="row2inscription">
+                <div class="labelprenominscritpion">
+                  <label for="Prénom">Prénom</label>             <!-- Prénom -->
+                </div>
+                <div class="inputprenominscritpion">
+                  <input type="text" id for="Prénom" name="Prénom">
+                </div>
+              </div>
+            </div>
+            <div class="containerform2">
+              <label for="Sexe">Sexe</label>                <!-- Sexe -->
+              <div class="selectsex">
+                <select id="Sexe">
+                  <option value="Vous êtes :">Vous êtes :</option>     <!-- Genre -->
+                  <option value="Un homme">Un homme</option>
+                  <option value="Une femme">Une femme</option>
+                </select>
+              </div>
+            </div>
+            <div class="containerform3">
+              <div class="row3inscription">
+                <div class="labeldate">
+                  <label for="Date de naissance :">Date de naissance :</label>     <!-- Date de naissance -->
+                </div>
+                <div class="inputdate">
+                  <input type="text" id for="Date de naissance" name="Date de naissance">
+                </div>
+              </div>
+            </div>
+            <div class="containerform4">
+              <div class="row4inscription">
+                <div class="labelville">
+                  <label for="Ville">Ville</label>                               <!-- Ville -->
+                </div>
+                <div class="inputville">
+                  <input type="text" id for="Ville" name="Ville">
+                </div>
+              </div>
+              <div class="row5inscription">
+                <div class="labeladress">
+                  <label for="Adresse">Adresse</label>                             <!-- Adresse -->
+                </div>
+                <div class="inputadress">
+                  <input type="text" id for="Adresse" name="Adresse">
+                </div>
+              </div>
+              <div class="row6inscription">
+                <div class="labelpostal">
+                  <label for="Code postal">Code postal</label>                  <!-- Code postal -->
+                </div>
+                <div class="inputpostal">
+                  <input type="text" id for="Code postal" name="Code postal">
+                </div>
+              </div>
+            </div>
+            <div class="containerform5">
+              <div class="labeladress">
+                <label for="Adresse mail">Adresse mail</label>             <!-- Adresse mail -->
+              </div>
+              <div class="inputadress">
+                <input type="text" id for="Adresse mail" name="Adresse mail">
+              </div>
+            </div>
+            <div class="containerform6">
+              <div class="row7inscription">
+                <div class="labelpassword">
+                  <label for="Mot de passe">Mot de passe</label>               <!-- Mot de passe -->
+                </div>
+                <div class="inputpassword">
+                  <input type="password" id for="Mot de passe" name="Mot de passe">
+                </div>
+              </div>
+              <div class="row8inscription">
+                <div class="labelrepeatpassword">
+                  <label for="Répéter le mot de passe">Répéter le mot de passe</label>        <!-- Repeat password -->
+                </div>
+                <div class="inputrepeatpassword">
+                  <input type="password" id for="Répéter le mot de passe" name="Répéter le mot de passe">
+                </div>
+              </div>
+            </div>
+            <div class="containerform7">
+              <div class="labelpays">
+                <label for="Pays">Pays</label>                                  <!-- Pays -->
+              </div>
+              <div class="selectpays">
+                <select id="Pays" name="Pays">
+                  <option value="-">-</option>                 <!-- Choix du pays -->
+                  <option value="France">France</option>
+                </select>
+              </div>
+            </div>
+            <div class="containerform8">
+              <div class="labelnum">
+            <label for="Votre numéro de téléphone">Votre numéro de téléphone</label>   <!-- Numéro de téléphone -->
+            </div>
+            <div class="inputnum">
+            <input type="text" id for="Votre numéro de téléphone" name="Numéro de téléphone">
+            </div>
+            </div>
+            <input type="submit" value="S'inscrire">
+          </fieldset>
         </form>
+      </div>
     </section>
     <footer>
       <section class="socialnetwork">
