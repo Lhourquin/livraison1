@@ -35,17 +35,50 @@
       <div class="containercontact">
         <form action="traitement.php" method="post">
           <fieldset>
-            <legend>Imformation perssonnel:</legend>
-            <label for="Nom">Nom</label>
-            <input type="text" id for="Nom" name="Nom">
-            <label for="Prénom">Prénom</label>
-            <input type="text" id for="Prénom" name="Prénom">
-            <label for="Adresse mail">Adresse mail</label>
-            <input type="text" id for="Adresse mail" name="Adresse mail">
-            <label for="Votre numéro de téléphone">Votre numéro de téléphone</label>
-            <input type="text" id for="Votre numéro de téléphone" name="Numéro de téléphone">
-            <label for="Votre message">Votre message</label>
-            <textarea id for="Votre message" name="Message" cols="30" rows="10"></textarea>
+            <div class="conatiner1">
+              <div class="row1">
+                <div class="labelnom">
+                  <label for="Nom">Nom</label>
+                </div>
+                <div class="inputnom">
+                  <input type="text" id for="Nom" name="Nom">
+                </div>
+              </div>
+              <div class="row2">
+                <div class="labelprenom">
+                  <label for="Prénom">Prénom</label>
+                </div>
+                <div class="inputprenom">
+                  <input type="text" id for="Prénom" name="Prénom">
+                </div>
+              </div>
+            </div>
+            <div class="container2">
+              <div class="row3">
+                <div class="labeladresse">
+                  <label for="Adresse mail">Adresse mail</label>
+                </div>
+                <div class="inputadresse">
+                  <input type="text" id for="Adresse mail" name="Adresse mail">
+                </div>
+              </div>
+              <div class="row4">
+                <div class="labelnumero">
+                  <label for="Votre numéro de téléphone">Votre numéro de téléphone</label>
+                </div>
+                <div class="inputnumero">
+                  <input type="text" id for="Votre numéro de téléphone" name="Numéro de téléphone">
+                </div>
+              </div>
+            </div>
+            <div class="row5">
+              <div class="labelmessage">
+                <label for="Votre message">Votre message</label>
+              </div>
+              <div class="textareamsg">
+                <textarea id for="Votre message" name="Message" cols="30" rows="10"></textarea>
+              </div>
+            </div>
             <input type="submit" value="Envoyer">
           </fieldset>
         </form>

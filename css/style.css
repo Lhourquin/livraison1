@@ -27,7 +27,6 @@ header{ /*header version desktop */
 
 .logo{ /* logo top of page Marc Seid */
  text-align:center;
- width:100vw;
 }
 
 .navheader{ /* nav Desktop */
@@ -81,6 +80,65 @@ footer>a:hover{
 
 .socialnetwork{ /* div qui regroupe les icons social network */
   padding:1vw;
+}
+
+/* Formulaire de contact */
+
+.h1contact{
+ font-size:3vw;
+ text-align:center;
+ margin-top:2vw;
+ margin-bottom:2vw;
+}
+
+.containercontact { /*nom et prÃ©nom */
+ box-sizing:border-box; 
+ text-align:center;
+ border:solid 1px black;
+}
+
+form{
+ margin-top:2vw;
+}
+
+
+label,input,textarea {
+    font-size:1.5vw;
+    padding: 1vw;
+    margin:1vw;
+  }
+
+input,textarea{
+  border:1px solid black;
+
+}
+
+.row1 {             /*nom*/
+  display:inline-block;
+}
+
+.row2 {           /*prÃ©nom */
+  display:inline-block;
+}
+
+.row3 {         /* adresse */
+  display:inline-block;
+}
+
+.row4 {      /* numÃ©ro */
+  display:inline-block;
+}
+
+.labelnom { /* label nom */
+}
+
+.inputnom {  /* input nom */
+}
+
+.labelprenom { /* label prÃ©nom */
+}
+
+.inputprenom {   /* input prÃ©nom */
 }
 
 }
