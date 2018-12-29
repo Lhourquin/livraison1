@@ -83,7 +83,8 @@ footer>a:hover{
 
 /* Formulaire de contact */
 .sectioncontact{
-  background-color:grey;
+  background-image:url(background.jpeg);
+  background-size:100%;
   margin-top:0;
 }
 
@@ -92,13 +93,14 @@ footer>a:hover{
  text-align:center;
  padding-top:2vw;
  margin-bottom:2vw;
+ color:white;
 }
 
 .containercontact { /*nom et prÃ©nom */
  box-sizing:border-box; 
+ color:white;
  width:100%;
  text-align:center;
- border:solid 1px black;
 }
 
 form{
