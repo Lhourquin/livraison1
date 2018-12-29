@@ -139,8 +139,14 @@ input,textarea,select,option{
 
 /* Inscription desktop */
 
+.sectionsuscribe{
+ background-image:url(suivi.png);
+ background-size:110%;
+}
+
 .h1inscription{
     font-size:2vw;
+    color:white;
     padding-top:2vw;
     padding-bottom:2vw;
     text-align:center;
@@ -148,6 +154,7 @@ input,textarea,select,option{
 
 .containerinscription{
  text-align:center;
+ color:white;
 }
 
 .containerform1{
