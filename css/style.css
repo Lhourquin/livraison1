@@ -27,6 +27,8 @@ header{ /*header version desktop */
 
 .logo{ /* logo top of page Marc Seid */
  text-align:center;
+ height:25vh;
+ width!25vw;
 }
 
 .navheader{ /* nav Desktop */
@@ -201,8 +203,49 @@ input,textarea,select,option{
  font-size:1.7vw;
 }
 
-.containerindex{
+.containerindex{ /* container div de H1 et H2 */
  margin:0 3vw 10vw  20vw;
 width: 55%;
 }
+
+.articleindex{
+ border-top:0.5vw solid white;
+ color:white;
+ background-color:black;
+}
+
+.h3index{
+
+  text-align:center;
+ font-size:3vw;
+ padding-top:2vw;
+}
+
+.h4index{
+  font-size:2vw;
+  text-align:center;
+}
+
+.containerindex2{
+  display:flex;
+  justify-content:space-around;
+
+  padding: 3vw 6vw 3vw 0;
+}
+
+.containerindex3{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    padding: 0 0 5vw 0;
+}
+
+.fas {
+  font-size:6vw;
+}
+
+.figureindex{
+    width:20%;
+}
+
 }
