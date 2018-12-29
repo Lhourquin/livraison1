@@ -9,7 +9,7 @@
   text-decoration: none; 
 }
 
-@media (min-width: 700px) { 
+@media (min-width: 850px) { 
   
   /* header and footer Desktop */
 
@@ -142,8 +142,8 @@ input,textarea,select,option{
 /* Inscription desktop */
 
 .sectionsuscribe{
- background-image:url(suivi.png);
- background-size:110%;
+ background-image:url(background.jpeg);
+ background-size:105%;
 }
 
 .h1inscription{
@@ -204,14 +204,14 @@ input,textarea,select,option{
 }
 
 .containerindex{ /* container div de H1 et H2 */
- margin:0 3vw 10vw  20vw;
+ margin:0 3vw 30vw  20vw;
 width: 55%;
 }
 
 .articleindex{
  border-top:0.5vw solid white;
  color:white;
- background-color:black;
+ background-color:grey;
 }
 
 .h3index{
@@ -248,4 +248,45 @@ width: 55%;
     width:20%;
 }
 
+.figcaptionindex{
+padding-top: 1vw;
+font-size: 1.2vw;
+
+}
+
+/* Tarifs.html desktop */
+
+.sectiontarifs{
+   background-image:url(background.jpeg); 
+   background-size:100%;
+   color:white;
+   padding-bottom:3vw;
+}
+
+.h1tarifs{
+    text-align:center;
+    font-size:2vw;
+    padding:2vw 0 2vw 0;
+    }
+
+caption{
+    font-size:2vw;
+    padding:2vw 0 2vw 0;
+}
+
+table{
+    table-layout:fixed;
+    border:0.2vw solid white; 
+    text-align:center;
+    margin:auto;
+    width:35%;
+    
+}
+
+td,th{
+    border-collapse:collapse;
+    font-size:1vw;
+    border:0.2vw solid white; 
+    width:20%;
+}
 }
