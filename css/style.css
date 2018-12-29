@@ -150,18 +150,22 @@ input,textarea,select,option{
 
 .containerform1{
  display: flex;
+ justify-content:center;
 }
 
 .containerform3{
  display:flex;
+ justify-content:center;
 }
 
 .containerform4{
  display:flex;
+ justify-content:center;
 }
 
 .containerform6{
  display:flex;
+ justify-content:center;
 }
 
 
