@@ -295,8 +295,30 @@ thead th{
 
 /* a-propos.html desktop */
 
-.h1propos{
+.sectionpropos{
+    background-image:url(coachsportif.jpg);
+    background-size:100%;
+}
+
+h1.h1propos{
     font-size:3vw;
+   color:white; 
+padding: 1vw 0 1vw 1vw;
+}
+.papropos{
+    font-size: 2vw;
+padding: 1vw 0 0 1vw;
+color:white;
+}
+
+.containerabout{
+
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+width: 40%;
+padding: 1vw 0 2vw 1vw;
+
 }
 
 }
