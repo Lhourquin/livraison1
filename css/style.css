@@ -9,7 +9,9 @@
   text-decoration: none; 
 }
 
-@media (min-width: 850px) { 
+/* Desktop */
+
+@media (min-width: 768px) { 
 
   /* header and footer Desktop */
 
@@ -321,3 +323,10 @@
   }
 
 }
+/* Tabblette */
+
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  
+} 
