@@ -328,5 +328,126 @@
   @media (min-width: 481px) and (max-width: 767px) {
   
   
+  .burger{ /* menu hambergur icon nav bar tablette mobille */
+  }
+
+  .logo{ /* logo top of page Marc Seid */
+    height:10vh;
+  }
+
+  .navheader{
+  display:none;
+  }
+
+  .containertabletteindex{
+  display:flex;
+  }
+
+  footer{ /* footer tablette */
+    background-color:black;
+    border-top:0.4vh solid red;
+    text-align:center;
+  }
+
+  footer>a{
+    color:white;
+    font-size:1vh;
+  }
+
+  footer>a:hover{
+    color:grey;
+    transition-duration:0.4s;
+  }
+
+  .fab{ /* icon social network */
+    font-size:2.9vh;
+    color:white;
+    padding:2.5vh;
+  }
+
+  .fab:hover{ /* annimation quand on survole les icon social network */
+    color:grey;
+    transition-duration:0.4s;
+  }
+
+  .socialnetwork{ /* div qui regroupe les icons social network */
+    padding:1vh;
+  }
   
+  /* index tablette */
+
+   /* logo top of page Marc Seid */
+    
+  .sectionindex{
+    background-image:url(coach.jpg);
+    background-size:cover;
+    height:50vh;
+    color:white;
+    width:100%;
+    flex-direction:column;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    flex-wrap:wrap;
+  }
+
+  .h1index{
+    font-size:2.9vh;
+
+  }
+
+  .h2index{
+    font-size:1.7vh;
+  }
+
+  .containerindex{ /* container div de H1 et H2 */
+    margin:0 3vh 30vh  20vh;
+    width: 45%;
+  }
+
+  .articleindex{
+    border-top:0.5vh solid white;
+    color:white;
+    background-color:grey;
+  }
+
+  .h3index{
+
+    text-align:center;
+    font-size:3vh;
+    padding-top:2vh;
+  }
+
+  .h4index{
+    font-size:2vh;
+    text-align:center;
+  }
+
+  .containerindex2{
+    display:flex;
+    justify-content:space-around;
+
+    padding: 3vh 6vh 3vh 0;
+  }
+
+  .containerindex3{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    padding: 0 0 5vh 0;
+  }
+
+  .fas {
+    font-size:6vh;
+  }
+
+  .figureindex{
+    width:20%;
+  }
+
+  .figcaptionindex{
+    padding-top: 1vh;
+    font-size: 1.2vh;
+
+  }
 } 
