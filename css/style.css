@@ -10,178 +10,177 @@
 }
 
 @media (min-width: 850px) { 
-  
+
   /* header and footer Desktop */
 
-body{ /*body version desktop*/
-}
+  body{ /*body version desktop*/
+  }
 
 
-header{ /*header version desktop */
- background-color:black;
-}
+  header{ /*header version desktop */
+    background-color:black;
+  }
 
-.burger{ /* menu hambergur icon nav bar */
- display:none;
-}
+  .burger{ /* menu hambergur icon nav bar */
+    display:none;
+  }
 
-.logo{ /* logo top of page Marc Seid */
- text-align:center;
- height:25vh;
- width!25vw;
-}
+  .logo{ /* logo top of page Marc Seid */
+    text-align:center;
+    height:25vh;
+  }
 
-.navheader{ /* nav Desktop */
-text-align:center;
-}
+  .navheader{ /* nav Desktop */
+    text-align:center;
+  }
 
-.navheader>a:hover{ /* annimation quand on survole la nav bar */
+  .navheader>a:hover{ /* annimation quand on survole la nav bar */
     color:grey;
     transition-duration:0.5s;
-}
+  }
 
-.active{ /* annimation sur la nav bar pour la page active */
+  .active{ /* annimation sur la nav bar pour la page active */
     border-bottom:0.4vw solid red;
   }
 
-.navheader>a{ /* lien de la navbar */
- color:white;
- font-size:2.6vw;
- text-align:center;
- padding-left:4vw;
- padding-right:4vw;
-}
+  .navheader>a{ /* lien de la navbar */
+    color:white;
+    font-size:2.6vw;
+    text-align:center;
+    padding-left:4vw;
+    padding-right:4vw;
+  }
 
-footer{ /* footer desktop */
-  background-color:black;
-  border-top:0.4vw solid red;
- text-align:center;
-}
+  footer{ /* footer desktop */
+    background-color:black;
+    border-top:0.4vw solid red;
+    text-align:center;
+  }
 
-footer>a{
+  footer>a{
     color:white;
     font-size:1vw;
-}
+  }
 
-footer>a:hover{
+  footer>a:hover{
     color:grey;
     transition-duration:0.4s;
-}
+  }
 
-.fab{ /* icon social network */
+  .fab{ /* icon social network */
     font-size:2.9vw;
     color:white;
     padding:2.5vw;
   }
 
-.fab:hover{ /* annimation quand on survole les icon social network */
-  color:grey;
-  transition-duration:0.4s;
-}
+  .fab:hover{ /* annimation quand on survole les icon social network */
+    color:grey;
+    transition-duration:0.4s;
+  }
 
-.socialnetwork{ /* div qui regroupe les icons social network */
-  padding:1vw;
-}
+  .socialnetwork{ /* div qui regroupe les icons social network */
+    padding:1vw;
+  }
 
-/* Formulaire de contact */
-.sectioncontact{
-  background-image:url(background.jpeg);
-  background-size:100%;
-  margin-top:0;
-}
+  /* Formulaire de contact */
+  .sectioncontact{
+    background-image:url(background.jpeg);
+    background-size:100%;
+    margin-top:0;
+  }
 
-.h1contact{
- font-size:3vw;
- text-align:center;
- padding-top:2vw;
- margin-bottom:2vw;
- color:white;
-}
+  .h1contact{
+    font-size:3vw;
+    text-align:center;
+    padding-top:2vw;
+    margin-bottom:2vw;
+    color:white;
+  }
 
-.containercontact { /*nom et prÃ©nom */
- box-sizing:border-box; 
- color:white;
- width:100%;
- text-align:center;
-}
+  .containercontact { /*nom et prÃ©nom */
+    box-sizing:border-box; 
+    color:white;
+    width:100%;
+    text-align:center;
+  }
 
-form{
- margin-top:2vw;
-}
+  form{
+    margin-top:2vw;
+  }
 
 
-label,input,textarea,select,option {
+  label,input,textarea,select,option {
     font-size:1vw;
     padding: 1vw;
     margin:1vw;
   }
 
-input,textarea,select,option{
-  border:1px solid black;
-  border-radius:2vw;
+  input,textarea,select,option{
+    border:1px solid black;
+    border-radius:2vw;
 
-}
+  }
 
-.row1 {             /*nom*/
-  display:inline-block;
-}
+  .row1 {             /*nom*/
+    display:inline-block;
+  }
 
-.row2 {           /*prÃ©nom */
-  display:inline-block;
-}
+  .row2 {           /*prÃ©nom */
+    display:inline-block;
+  }
 
-.row3 {         /* adresse */
-  display:inline-block;
-}
+  .row3 {         /* adresse */
+    display:inline-block;
+  }
 
-.row4 {      /* numÃ©ro */
-  display:inline-block;
-}
+  .row4 {      /* numÃ©ro */
+    display:inline-block;
+  }
 
 
-/* Inscription desktop */
+  /* Inscription desktop */
 
-.sectionsuscribe{
- background-image:url(background.jpeg);
- background-size:105%;
-}
+  .sectionsuscribe{
+    background-image:url(background.jpeg);
+    background-size:105%;
+  }
 
-.h1inscription{
+  .h1inscription{
     font-size:2vw;
     color:white;
     padding-top:2vw;
     padding-bottom:2vw;
     text-align:center;
-}
+  }
 
-.containerinscription{
- text-align:center;
- color:white;
-}
+  .containerinscription{
+    text-align:center;
+    color:white;
+  }
 
-.containerform1{
- display: flex;
- justify-content:center;
-}
+  .containerform1{
+    display: flex;
+    justify-content:center;
+  }
 
-.containerform3{
- display:flex;
- justify-content:center;
-}
+  .containerform3{
+    display:flex;
+    justify-content:center;
+  }
 
-.containerform4{
- display:flex;
- justify-content:center;
-}
+  .containerform4{
+    display:flex;
+    justify-content:center;
+  }
 
-.containerform6{
- display:flex;
- justify-content:center;
-}
+  .containerform6{
+    display:flex;
+    justify-content:center;
+  }
 
-/* Index.html */
+  /* Index.html */
 
-.sectionindex{
+  .sectionindex{
     background-image:url(coach.jpg);
     background-size:100%;
     height:50vw;
@@ -192,133 +191,133 @@ input,textarea,select,option{
     justify-content:center;
     align-items:flex-end;
     flex-wrap:wrap;
-}
+  }
 
-.h1index{
- font-size:2.9vw;
+  .h1index{
+    font-size:2.9vw;
 
-}
+  }
 
-.h2index{
- font-size:1.7vw;
-}
+  .h2index{
+    font-size:1.7vw;
+  }
 
-.containerindex{ /* container div de H1 et H2 */
- margin:0 3vw 30vw  20vw;
-width: 55%;
-}
+  .containerindex{ /* container div de H1 et H2 */
+    margin:0 3vw 30vw  20vw;
+    width: 55%;
+  }
 
-.articleindex{
- border-top:0.5vw solid white;
- color:white;
- background-color:grey;
-}
+  .articleindex{
+    border-top:0.5vw solid white;
+    color:white;
+    background-color:grey;
+  }
 
-.h3index{
+  .h3index{
 
-  text-align:center;
- font-size:3vw;
- padding-top:2vw;
-}
+    text-align:center;
+    font-size:3vw;
+    padding-top:2vw;
+  }
 
-.h4index{
-  font-size:2vw;
-  text-align:center;
-}
+  .h4index{
+    font-size:2vw;
+    text-align:center;
+  }
 
-.containerindex2{
-  display:flex;
-  justify-content:space-around;
+  .containerindex2{
+    display:flex;
+    justify-content:space-around;
 
-  padding: 3vw 6vw 3vw 0;
-}
+    padding: 3vw 6vw 3vw 0;
+  }
 
-.containerindex3{
+  .containerindex3{
     display:flex;
     justify-content:space-around;
     text-align:center;
     padding: 0 0 5vw 0;
-}
+  }
 
-.fas {
-  font-size:6vw;
-}
+  .fas {
+    font-size:6vw;
+  }
 
-.figureindex{
+  .figureindex{
     width:20%;
-}
+  }
 
-.figcaptionindex{
-padding-top: 1vw;
-font-size: 1.2vw;
+  .figcaptionindex{
+    padding-top: 1vw;
+    font-size: 1.2vw;
 
-}
+  }
 
-/* Tarifs.html desktop */
+  /* Tarifs.html desktop */
 
-.sectiontarifs{
-   background-image:url(background.jpeg); 
-   background-size:100%;
-   color:white;
-   padding-bottom:3vw;
-}
+  .sectiontarifs{
+    background-image:url(background.jpeg); 
+    background-size:100%;
+    color:white;
+    padding-bottom:3vw;
+  }
 
-.h1tarifs{
+  .h1tarifs{
     text-align:center;
     font-size:2vw;
     padding:2vw 0 2vw 0;
-    }
+  }
 
-caption{
+  caption{
     font-size:2vw;
     padding:2vw 0 2vw 0;
-}
+  }
 
-table{
+  table{
     table-layout:fixed;
     border:0.2vw solid white; 
     border-collapse:collapse;
     text-align:center;
     margin:auto;
     width:35%;
-    
-}
 
-td,th{
+  }
+
+  td,th{
     font-size:1vw;
     border:0.2vw solid white; 
     width:20%;
-}
-thead th{
-  background-color:black;
-}
+  }
+  thead th{
+    background-color:black;
+  }
 
-/* a-propos.html desktop */
+  /* a-propos.html desktop */
 
-.sectionpropos{
+  .sectionpropos{
     background-image:url(coachsportif.jpg);
     background-size:100%;
-}
+  }
 
-h1.h1propos{
+  h1.h1propos{
     font-size:3vw;
-   color:white; 
-padding: 1vw 0 1vw 1vw;
-}
-.papropos{
+    color:white; 
+    padding: 1vw 0 1vw 1vw;
+  }
+  .papropos{
     font-size: 2vw;
-padding: 1vw 0 0 1vw;
-color:white;
-}
+    padding: 1vw 0 0 1vw;
+    color:white;
+  }
 
-.containerabout{
+  .containerabout{
 
-  display: flex;
-flex-direction: column;
-justify-content: flex-end;
-width: 40%;
-padding: 1vw 0 2vw 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
+    padding: 1vw 0 2vw 1vw;
 
-}
+  }
 
 }
