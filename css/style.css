@@ -11,7 +11,7 @@
 
 /* Desktop */
 
-@media (min-width: 800px) { 
+@media (min-width: 1000px) { 
 
   /* header and footer Desktop */
 
@@ -325,7 +325,7 @@
 }
 /* Tabblette */
 
-  @media (min-width: 481px) and (max-width: 800px) {
+  @media (min-width: 481px) and (max-width: 1000px) {
   
   
   .burger{ /* menu hambergur icon nav bar tablette mobille */
