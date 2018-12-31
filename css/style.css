@@ -345,7 +345,6 @@
   }
 
   footer{ /* footer tablette */
-    height:10vh;
     background-color:black;
     border-top:0.4vh solid red;
     text-align:center;
