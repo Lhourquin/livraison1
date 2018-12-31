@@ -338,7 +338,7 @@
 }
 /* Tabblette */
 
-  @media (min-width: 481px) and (max-width: 1000px) {
+  @media (min-width: 481px) and (max-width: 1000px) and (orientation: landscape) {
   
 
   .burger{ /* menu hambergur icon nav bar tablette mobille */
