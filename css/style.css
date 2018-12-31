@@ -556,5 +556,48 @@
     background-color:black;
   }
 
+  /* inscription tablet */
+
+
+  .sectionsuscribe{
+    background-image:url(background.jpeg);
+    background-size:cover;
+    height:80vh;
+  }
+
+  .h1inscription{
+    font-size:3vh;
+    color:white;
+    padding-top:5vh;
+    padding-bottom:2vh;
+    text-align:center;
+  }
+
+  .containerinscription{
+    text-align:center;
+    color:white;
+  }
+
+  .containerform1{
+    display: flex;
+    justify-content:center;
+  }
+
+  .containerform3{
+    display:flex;
+    justify-content:center;
+  }
+
+  .containerform4{
+    display:flex;
+    justify-content:center;
+  }
+
+  .containerform6{
+    display:flex;
+    justify-content:center;
+  }
+
+
 
 } 
