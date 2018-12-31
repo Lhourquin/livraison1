@@ -327,7 +327,11 @@
 
   @media (min-width: 481px) and (max-width: 1000px) {
   
-  
+  body{
+  height:100vh;
+  }
+
+
   .burger{ /* menu hambergur icon nav bar tablette mobille */
   }
 
@@ -457,7 +461,7 @@
   .sectioncontact{
     background-image:url(background.jpeg);
     background-size:cover;
-    height:100vh;
+    height:100%;
     margin-top:0;
   }
 
