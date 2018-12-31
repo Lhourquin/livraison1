@@ -465,7 +465,7 @@
   .h1contact{
     font-size:3vh;
     text-align:center;
-    padding-top:2vh;
+    padding-top:5vh;
     margin-bottom:2vh;
     color:white;
   }
@@ -475,6 +475,7 @@
     color:white;
     width:100%;
     text-align:center;
+    padding:10vh;
   }
 
   form{
