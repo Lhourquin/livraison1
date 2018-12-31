@@ -663,7 +663,7 @@
  /* tablette landscape */
 
 
-  @media (min-width: 481px) and (max-width: 1160px) and (orientation: landscape) {
+  @media (min-width: 481px) and (max-width: 1290) and (orientation: landscape) {
   
 
   .burger{ /* menu hambergur icon nav bar tablette mobille */
