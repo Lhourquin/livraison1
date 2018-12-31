@@ -395,7 +395,7 @@
   .sectionindex{
     background-image:url(coach.jpg);
     background-size:cover;
-    height:50vh;
+    height:80vh;
     color:white;
     width:100%;
     flex-direction:column;
@@ -575,7 +575,7 @@
   .sectionsuscribe{
     background-image:url(background.jpeg);
     background-size:cover;
-    height:80vh;
+    height:100vh;
   }
 
   .h1inscription{
@@ -617,7 +617,7 @@
   .sectionpropos{
     background-color:grey;
     background-size:100%;
-    height:80vh;
+    height:100vh;
   }
   
   .figurepropos{
