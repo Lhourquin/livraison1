@@ -510,4 +510,51 @@
   .row4 {      /* numÃ©ro */
     display:inline-block;
   }
+
+/* tarifs tablet */
+
+  .sectiontarifs{
+    background-image:url(background.jpeg); 
+    background-size:cover;
+    color:white;
+    padding-bottom:3vh;
+    height:80vh;
+  }
+
+  .h1tarifs{
+    text-align:center;
+    font-size:3vh;
+    padding:5vh 0 2vh 0;
+  }
+
+   .tabletarifs{
+       margin-top:10vh;
+   }
+
+  caption{
+    font-size:2vh;
+    padding:2vh 0 2vh 0;
+  }
+
+  table{
+    table-layout:fixed;
+    border:0.2vh solid white; 
+    border-collapse:collapse;
+    text-align:center;
+    margin:auto;
+    width:60%;
+    height:20vh;
+
+  }
+
+  td,th{
+    font-size:2vh;
+    border:0.2vh solid white; 
+    width:40vw;
+  }
+  thead th{
+    background-color:black;
+  }
+
+
 } 
