@@ -960,4 +960,42 @@
   }
 
 
+  /* inscription mobile */
+
+
+  .sectionsuscribe{
+    background-color:grey;
+    background-size:cover;
+    height:170vh;
+  }
+
+  .h1inscription{
+    font-size:5vh;
+    color:white;
+    padding-top:5vh;
+    padding-bottom:2vh;
+    text-align:center;
+  }
+
+  .containerinscription{
+    text-align:center;
+    color:white;
+  }
+
+  .containerform1{
+    justify-content:center;
+  }
+
+  .containerform3{
+    justify-content:center;
+  }
+
+  .containerform4{
+    justify-content:center;
+  }
+
+  .containerform6{
+    justify-content:center;
+  }
+
 }
