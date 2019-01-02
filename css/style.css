@@ -998,4 +998,53 @@
     justify-content:center;
   }
 
+
+  /* a propos mobile */
+
+
+  .sectionpropos{
+    background-color:grey;
+    background-size:100%;
+    height:130vh;
+  }
+
+  .figurepropos{
+    text-align:center;
+    padding:3vh;
+    border-radius:50px;
+  }
+
+  .imgpropos{
+
+    overflow: hidden;
+    width: 26%;
+    height: 43%;
+    border-radius: 50%;
+
+  }
+
+
+  h1.h1propos{
+    font-size:5vh;
+    color:white; 
+    padding: 1vh 0 1vh 1vh;
+    text-align:center;
+  }
+  .papropos{
+    font-size: 3vh;
+    padding: 3vh 0 0 1vh;
+    color:white;
+  }
+
+  .containerabout{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 83%;
+    margin:auto;
+
+  }
+
+
 }
