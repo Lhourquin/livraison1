@@ -23,7 +23,7 @@
     background-color:black;
   }
 
-  .burger{ /* menu hambergur icon nav bar */
+  .menu { /* menu hambergur icon nav bar */
     display:none;
   }
 
@@ -341,10 +341,28 @@
   @media (min-width: 481px) and (max-width: 1000px) {
   
 
+ header{
+ background-color: black;
+
+border-bottom: 0.1vh solid white;
+ }
+
   .menu { /* menu hambergur icon nav bar tablette mobille */
+  display:flex;
+  justify-content:space-between;
   }
 
   nav{
+    display:none;
+  }
+
+  .burger{
+  padding:2vh;
+  
+
+color: grey;
+
+background: black;
   }
 
   .burger nav >* { /* icon burger */
@@ -352,6 +370,7 @@
 
   .logo{ /* logo top of page Marc Seid */
     height:10vh;
+    width:
   }
 
   .navheader{
@@ -360,8 +379,8 @@
 
 
   .containertabletteindex{
-  display:flex;
-  justify-content:space-between;
+    display:flex;
+    justify-content:space-between;
   }
 
   footer{ /* footer tablette */
@@ -422,7 +441,7 @@
   }
 
   .containerindex{ /* container div de H1 et H2 */
-    margin:0 3vh 30vh  20vh;
+    margin:0 3vh 50vh  20vh;
     width: 45%;
   }
 
