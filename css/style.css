@@ -871,4 +871,47 @@
   }
 
 
+/* contact mobile */
+
+
+  .sectioncontact{
+    background-color:grey;
+    background-size:cover;
+    height:115vh;
+    margin-top:0;
+  }
+
+  .h1contact{
+    font-size:5vh;
+    text-align:center;
+    padding-top:5vh;
+    color:white;
+  }
+
+  .containercontact { /*nom et prÃ©nom */
+    box-sizing:border-box; 
+    color:white;
+    width:100%;
+    text-align:center;
+    padding:5vh;
+  }
+
+  form{
+    margin-top:2vh;
+  }
+
+
+  label,input,textarea,select,option {
+    font-size:2vh;
+    padding: 2vh;
+    margin:1vh;
+  }
+
+  input,textarea,select,option{
+    border:1px solid black;
+    border-radius:2vh;
+
+  }
+
+
 }
