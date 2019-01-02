@@ -209,9 +209,9 @@
     width: 55%;
   }
 
-.articleindexmobile{
-display:none;
-}
+  .articleindexmobile{
+    display:none;
+  }
 
   .articleindex{
     border-top:0.5vw solid white;
@@ -304,20 +304,20 @@ display:none;
     background-image:url(coachsportif.jpg);
     background-size:100%;
   }
-  
+
   .figurepropos{
-  display:none;
+    display:none;
   }
 
   .imgpropos{
-  
+
     display:none;
     overflow: hidden;
     width: 26%;
     height: 43%;
     border-radius: 50%;
 
-}
+  }
   h1.h1propos{
     font-size:3vw;
     color:white; 
@@ -342,18 +342,18 @@ display:none;
 }
 /* Tabblette */
 
-  @media (min-width: 481px) and (max-width: 1000px) {
-  
+@media (min-width: 481px) and (max-width: 1000px) {
 
- header{
- background-color: black;
 
-border-bottom: 0.1vh solid white;
- }
+  header{
+    background-color: black;
+
+    border-bottom: 0.1vh solid white;
+  }
 
   .menu { /* menu hambergur icon nav bar tablette mobille */
-  display:flex;
-  justify-content:space-between;
+    display:flex;
+    justify-content:space-between;
   }
 
   nav{
@@ -361,12 +361,12 @@ border-bottom: 0.1vh solid white;
   }
 
   .burger{
-  padding:2vh;
-  
+    padding:2vh;
 
-color: grey;
 
-background: black;
+    color: grey;
+
+    background: black;
   }
 
   .burger nav >* { /* icon burger */
@@ -378,7 +378,7 @@ background: black;
   }
 
   .navheader{
-  display:none;
+    display:none;
   }
 
 
@@ -417,11 +417,11 @@ background: black;
   .socialnetwork{ /* div qui regroupe les icons social network */
     padding:1vh;
   }
-  
+
   /* index tablette */
 
-   /* logo top of page Marc Seid */
-    
+  /* logo top of page Marc Seid */
+
   .sectionindex{
     background-image:url(coach.jpg);
     background-size:cover;
@@ -450,7 +450,7 @@ background: black;
   }
 
   .articleindexmobile{
-  display:none;
+    display:none;
   }
 
   .articleindex{
@@ -499,7 +499,7 @@ background: black;
 
   }
 
-/* contact tablette */
+  /* contact tablette */
 
 
   .sectioncontact{
@@ -558,7 +558,7 @@ background: black;
     display:inline-block;
   }
 
-/* tarifs tablet */
+  /* tarifs tablet */
 
   .sectiontarifs{
     background-image:url(background.jpeg); 
@@ -574,9 +574,9 @@ background: black;
     padding:5vh 0 2vh 0;
   }
 
-   .tabletarifs{
-       margin-top:10vh;
-   }
+  .tabletarifs{
+    margin-top:10vh;
+  }
 
   caption{
     font-size:2vh;
@@ -645,7 +645,7 @@ background: black;
     justify-content:center;
   }
 
-    /* a propos tablet */
+  /* a propos tablet */
 
 
   .sectionpropos{
@@ -653,7 +653,7 @@ background: black;
     background-size:100%;
     height:100vh;
   }
-  
+
   .figurepropos{
     text-align:center;
     padding:3vh;
@@ -661,14 +661,14 @@ background: black;
   }
 
   .imgpropos{
-  
+
     overflow: hidden;
     width: 26%;
     height: 43%;
     border-radius: 50%;
 
-}
-  
+  }
+
 
   h1.h1propos{
     font-size:3vh;
@@ -692,26 +692,26 @@ background: black;
 
   }
 
-    
-    
+
+
 
 } 
 
 
-    /* mobile */
+/* mobile */
 
 @media (min-device-width: 320px) and (max-device-width: 480px){
 
 
- header{
- background-color: black;
+  header{
+    background-color: black;
 
-border-bottom: 0.1vh solid white;
- }
+    border-bottom: 0.1vh solid white;
+  }
 
   .menu { /* menu hambergur icon nav bar tablette mobille */
-  display:flex;
-  justify-content:space-between;
+    display:flex;
+    justify-content:space-between;
   }
 
   nav{
@@ -719,12 +719,12 @@ border-bottom: 0.1vh solid white;
   }
 
   .burger{
-  padding:2vh;
-  
+    padding:2vh;
 
-color: grey;
 
-background: black;
+    color: grey;
+
+    background: black;
   }
 
   .burger nav >* { /* icon burger */
@@ -736,7 +736,7 @@ background: black;
   }
 
   .navheader{
-  display:none;
+    display:none;
   }
 
 
@@ -779,8 +779,8 @@ background: black;
 
   /* index mobile  */
 
-   /* logo top of page Marc Seid */
-    
+  /* logo top of page Marc Seid */
+
   .sectionindex{
     background-image:url(coach.jpg);
     background-size:cover;
@@ -813,36 +813,40 @@ background: black;
   }
 
   .articleindexmobile{
-  
+        border-top: 0.5vh solid white;
+    color: white;
+    background-color: grey;
+
+
   }
 
   .containerindexmobile{
-  display: flex;
+    display: flex;
 
-flex-direction: column;
+    flex-direction: column;
 
-justify-content: center;
+    justify-content: center;
 
-align-items: center;
+    align-items: center;
   }
 
   .h3index{
 
     text-align: center;
 
-font-size: 3vh;
+    font-size: 2.7vh;
 
-padding-top: 2vh;
+    padding-top: 2vh;
 
-padding-bottom: 3vh;
+    padding-bottom: 3vh;
   }
 
   .h4index{
     font-size: 2vh;
 
-text-align: center;
+    text-align: center;
 
-padding: 1vh;
+    padding: 1vh;
   }
 
   .fas {
@@ -851,16 +855,19 @@ padding: 1vh;
 
   .figureindex{
     width: 31%;
+    border:0.1vh solid white;
+    margin-bottom:3vh;
+    border-radius: 7vh;
 
-text-align: center;
+    text-align: center;
 
-padding: 2vh;
+    padding: 2vh;
   }
 
   .figcaptionindex{
-padding-top: 1vh;
+    padding-top: 1vh;
 
-font-size: 1.8vh;
+    font-size: 1.8vh;
   }
 
 
