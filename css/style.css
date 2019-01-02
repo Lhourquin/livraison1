@@ -692,7 +692,7 @@ background: black;
 
     /* mobile */
 
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-device-width: 320px) and (max-device-width: 480px){
 
 
  header{
