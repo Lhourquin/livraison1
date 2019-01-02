@@ -682,5 +682,93 @@ background: black;
     width: 83%;
     margin:auto;
 
+  }
+
+    
+    
 
 } 
+
+
+    /* mobile */
+
+@media (min-width: 320px) and (max-width: 480px){
+
+
+ header{
+ background-color: black;
+
+border-bottom: 0.1vh solid white;
+ }
+
+  .menu { /* menu hambergur icon nav bar tablette mobille */
+  display:flex;
+  justify-content:space-between;
+  }
+
+  nav{
+    display:none;
+  }
+
+  .burger{
+  padding:2vh;
+  
+
+color: grey;
+
+background: black;
+  }
+
+  .burger nav >* { /* icon burger */
+  }
+
+  .logo{ /* logo top of page Marc Seid */
+    height:10vh;
+    width:
+  }
+
+  .navheader{
+  display:none;
+  }
+
+
+  .containertabletteindex{
+    display:flex;
+    justify-content:space-between;
+  }
+
+  footer{ /* footer tablette */
+    background-color:black;
+    border-top:0.4vh solid red;
+    text-align:center;
+  }
+
+  footer>a{
+    color:white;
+    font-size:1vh;
+  }
+
+  footer>a:hover{
+    color:grey;
+    transition-duration:0.4s;
+  }
+
+  .fab{ /* icon social network */
+    font-size:2.9vh;
+    color:white;
+    padding:2.5vh;
+  }
+
+  .fab:hover{ /* annimation quand on survole les icon social network */
+    color:grey;
+    transition-duration:0.4s;
+  }
+
+  .socialnetwork{ /* div qui regroupe les icons social network */
+    padding:1vh;
+  }
+
+
+
+
+}
