@@ -209,6 +209,10 @@
     width: 55%;
   }
 
+.articleindexmobile{
+display:none;
+}
+
   .articleindex{
     border-top:0.5vw solid white;
     color:white;
@@ -443,6 +447,10 @@ background: black;
   .containerindex{ /* container div de H1 et H2 */
     margin:0 3vh 50vh  20vh;
     width: 45%;
+  }
+
+  .articleindexmobile{
+  display:none;
   }
 
   .articleindex{
@@ -737,7 +745,7 @@ background: black;
     justify-content:space-between;
   }
 
-  footer{ /* footer tablette */
+  footer{ /* footer mobile */
     background-color:black;
     border-top:0.4vh solid red;
     text-align:center;
@@ -769,6 +777,91 @@ background: black;
   }
 
 
+  /* index mobile  */
+
+   /* logo top of page Marc Seid */
+    
+  .sectionindex{
+    background-image:url(coach.jpg);
+    background-size:cover;
+    height:80vh;
+    color:white;
+    width:100%;
+    flex-direction:column;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    flex-wrap:wrap;
+  }
+
+  .h1index{
+    font-size:2.9vh;
+
+  }
+
+  .h2index{
+    font-size:1.7vh;
+  }
+
+  .containerindex{ /* container div de H1 et H2 */
+    margin:0 3vh 50vh  20vh;
+    width: 45%;
+  }
+
+  .articleindex{
+    display:none;
+  }
+
+  .articleindexmobile{
+  
+  }
+
+  .containerindexmobile{
+  display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+  }
+
+  .h3index{
+
+    text-align: center;
+
+font-size: 3vh;
+
+padding-top: 2vh;
+
+padding-bottom: 3vh;
+  }
+
+  .h4index{
+    font-size: 2vh;
+
+text-align: center;
+
+padding: 1vh;
+  }
+
+  .fas {
+    font-size:6vh;
+  }
+
+  .figureindex{
+    width: 31%;
+
+text-align: center;
+
+padding: 2vh;
+  }
+
+  .figcaptionindex{
+padding-top: 1vh;
+
+font-size: 1.8vh;
+  }
 
 
 }
