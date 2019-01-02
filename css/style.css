@@ -341,8 +341,13 @@
   @media (min-width: 481px) and (max-width: 1000px) {
   
 
-  .burger{ /* menu hambergur icon nav bar tablette mobille */
-    height:10vh;
+  .menu { /* menu hambergur icon nav bar tablette mobille */
+  }
+
+  nav{
+  }
+
+  .burger nav >* { /* icon burger */
   }
 
   .logo{ /* logo top of page Marc Seid */
@@ -353,8 +358,10 @@
   display:none;
   }
 
+
   .containertabletteindex{
   display:flex;
+  justify-content:space-between;
   }
 
   footer{ /* footer tablette */
