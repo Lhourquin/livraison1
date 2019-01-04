@@ -84,6 +84,19 @@
     padding:1vw;
   }
 
+  .far{
+      position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    font-size: 3vw;
+
+color: whitesmoke;
+}
+ 
+
   /* Formulaire de contact */
   .sectioncontact{
     background-image:url(background.jpeg);
@@ -422,6 +435,16 @@
     padding:1vh;
   }
 
+  .far{
+      position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 0;
+    font-size: 5vh;
+
+color: whitesmoke;
+}
+ 
   /* index tablette */
 
   /* logo top of page Marc Seid */
@@ -780,7 +803,15 @@
     padding:1vh;
   }
 
+  .far{
+      position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 0;
+    font-size: 4vh;
 
+color: whitesmoke;
+}
   /* index mobile  */
 
   /* logo top of page Marc Seid */
