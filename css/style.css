@@ -402,6 +402,7 @@ color: whitesmoke;
   font-size:2vh;
   letter-spacing:1px;
   line-height:2.5;
+  padding:1vh;
   }
 
 
@@ -769,6 +770,7 @@ color: whitesmoke;
    padding-bottom:4vh;
    background-color: black;
    transition:2s;
+   padding:1vh;
   }
 
   .fas{
