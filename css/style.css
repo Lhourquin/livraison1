@@ -381,6 +381,10 @@ color: whitesmoke;
    transition:2s;
   }
 
+  .fas{
+  color:white;
+  }
+
 
   input#burger{
 
@@ -391,6 +395,13 @@ color: whitesmoke;
   nav{
     display:none;
     flex-direction:column;
+  }
+
+  .aburger{
+  color:white;
+  font-size:2vh;
+  letter-spacing:1px;
+  line-height:2.5;
   }
 
 
