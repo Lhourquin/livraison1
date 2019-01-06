@@ -371,22 +371,29 @@ color: whitesmoke;
   .menu { /* menu hambergur icon nav bar tablette mobille */
     display:flex;
     justify-content:space-between;
+    flex-direction:column;
   }
 
   nav{
-    display:none;
+    display:flex;
+    flex-direction:column;
   }
 
-  .burger{
-    padding:2vh;
+  a{
+  color:white;
+  }
 
+  .burger:before{
+    padding:2vh;
 
     color: grey;
 
     background: black;
   }
 
-  .burger nav >* { /* icon burger */
+ .burger:checked  { /* icon burger */
+    height:100px;
+    width:100px;
   }
 
   .logo{ /* logo top of page Marc Seid */
