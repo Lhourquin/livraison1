@@ -374,27 +374,20 @@ color: whitesmoke;
     flex-direction:column;
   }
 
+   .burger:checked + nav{
+   display:flex;
+   padding-bottom:4vh;
+   background-color: black;
+   transition:2s;
+  }
+
+
   nav{
-    display:flex;
+    display:none;
     flex-direction:column;
   }
 
-  a{
-  color:white;
-  }
 
-  .burger:before{
-    padding:2vh;
-
-    color: grey;
-
-    background: black;
-  }
-
- .burger:checked  { /* icon burger */
-    height:100px;
-    width:100px;
-  }
 
   .logo{ /* logo top of page Marc Seid */
     height:10vh;
