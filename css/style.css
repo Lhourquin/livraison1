@@ -374,11 +374,17 @@ color: whitesmoke;
     flex-direction:column;
   }
 
-   .burger:checked + nav{
+   #burger:checked + nav{
    display:flex;
    padding-bottom:4vh;
    background-color: black;
    transition:2s;
+  }
+
+
+  input#burger{
+
+    display:none;
   }
 
 
